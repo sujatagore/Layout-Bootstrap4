@@ -1,4 +1,8 @@
 
+/* .container{
+    box-shadow: 10px 10px 20px #babecc,
+                -10px -10px 20px #fff;
+} */
 
 a:link,
 a:visited{
@@ -8,3 +12,139 @@ a:visited{
 ul{
 	list-style: none;
 }
+
+i:hover{
+    transform: rotate(315deg);
+}
+
+/*-------------- Button1 CSS ----------------*/
+
+
+/* .sliderBtn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: var(--color-primary);
+    font-size: 16px;
+    font-weight: 300px;
+    color: var(--color-white);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 6px var(--color-primary);
+  }
+  
+  .sliderBtn:hover {
+    box-shadow: 0 4px var(--color-primary);
+    top: 2px;
+  }
+  
+  .sliderBtn:active {
+    box-shadow: none;
+    top: 6px;
+  } */
+
+.sliderBtn {
+    border: none;
+    /* display: block; */
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: var(--color-dark);
+    font-weight: 700;
+    font-size: 15px;
+    /* background-color:; */
+    padding: 10px 20px;
+    /* margin: 0 auto; */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+    border-radius: 5px;
+}
+  
+.sliderBtn span {
+    position: relative; 
+    z-index: 1;
+}
+  
+.sliderBtn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 400%;
+    width: 110%;
+    background: var(--color-cyan);
+    transition: all .5s ease-in-out;
+    transform: translateX(-90%) translateY(-25%) rotate(45deg);
+}
+  
+.sliderBtn:hover:after {
+    transform: translateX(-8%) translateY(-25%) rotate(45deg);
+}
+
+/*-------------- Button1 CSS end ----------------*/
+
+/*-------------- Button2 CSS ----------------*/
+
+.btn-info{
+    color: var(--color-white);
+    position: relative;   
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 8px 0 0 var(--color-dark);
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.btn-info:active{
+    box-shadow: none;
+    top: 10px;
+    margin-bottom: o;
+}
+
+.learn:hover{
+    background-color:var(--color-cyan);
+}
+
+.learn {
+    background-color:var(--color-cyan);
+}
+
+/*-------------- Button2 CSS end----------------*/
+
+/*-------------- Button3 CSS ----------------*/
+
+.confirmBtn {
+    width: 150px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    background-color: var(--color-primary);
+    font-size: 15px;
+    font-weight: 300px;
+    color: var(--color-white);
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 6px var(--color-primary);
+}
+  
+.confirmBtn:hover {
+    box-shadow: 0 4px var(--color-primary);
+    top: 3px;
+}
+  
+.confirmBtn:active {
+    box-shadow: none;
+    top: 4px;
+}
+
+/*-------------- Button3 CSS end ----------------*/
