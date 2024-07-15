@@ -58,13 +58,15 @@
     left: 0;
 }
 
-.mainNavbar .nav-item .active .nav-link::before,
+.mainNavbar .nav-item.active .nav-link::before,
 .mainNavbar .nav-link:hover::before,
 .mainNavbar .nav-link:focus::before {
     transform: scaleX(1);
 }
 
-.navbar-dark.mainNavbar .navbar-nav a:hover{
+.navbar-dark.mainNavbar .navbar-nav a:hover,
+.navbar-dark.mainNavbar .navbar-nav a:focus,
+.navbar-dark.mainNavbar .navbar-nav a:active{
     color: var(--color-cyan);
 }
 
