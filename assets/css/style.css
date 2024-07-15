@@ -99,10 +99,41 @@
 
 /*-------------------------------------------------- heroImgParallax CSS End ----------------------------------------------------- */
 
-/*-------------------------------------------------- Infosection CSS ----------------------------------------------------- */
+/*-------------------------------------------------- photoGallary CSS ----------------------------------------------------- */
 
+/* .photoGallary{
+    height: 200px;
+    object-fit: cover;
+} */
 
-/*-------------------------------------------------- Infosection CSS end ----------------------------------------------------- */
+.photoGallary .photoGall{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photoGallary .gallary {
+    height: 200px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.photoGallary .gallary a{
+    display: block;
+    height: 100%;
+}
+
+.photoGallary .gallary a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photoGallary .gallary a img:hover{
+    transform: translateY(-10px);
+}
+
+/*-------------------------------------------------- photoGallary CSS End ----------------------------------------------------- */
 
 /*-------------------------------------------------- cardSection CSS  ----------------------------------------------------- */
 
@@ -112,6 +143,28 @@
 }
 
 /*-------------------------------------------------- cardSection CSS end ----------------------------------------------------- */
+
+
+/*-------------------------------------------------- servicesCard CSS ----------------------------------------------------- */
+
+.servicesCard .card-body li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesCard .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0, 0.7) ;
+    /* box-shadow: 0px 0px 10px 10px rgb(0, 0, 0, 0.5) inset; */
+}
+
+.servicesCard .card-body li:hover{
+    transform: translateY(-10px);
+}
+
+/*-------------------------------------------------- servicesCard CSS end ----------------------------------------------------- */
+
 
 /*-------------------------------------------------- feedBackSlider section CSS ----------------------------------------------------- */
 
